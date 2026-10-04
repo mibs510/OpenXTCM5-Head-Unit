@@ -328,7 +328,7 @@
 				)
 				(uuid "581ffc69-81c7-44be-af08-fd45e9fd36ed")
 			)
-			(table_cell "XX/YY/20ZZ"
+			(table_cell "10/03/2026"
 				(exclude_from_sim no)
 				(at 29.21 46.99 0)
 				(size 29.21 3.81)
