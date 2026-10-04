@@ -1,0 +1,10 @@
+flowchart TD
+    Observe[Observe the original unit\nand define the failure to solve] --> Partition[Partition the system\ninto power, compute, I/O and recovery domains]
+    Partition --> Read[Read the applicable datasheets\nand reference circuits]
+    Read --> Draw[Capture the intent in KiCad\nwith explicit net and sheet interfaces]
+    Draw --> Review[Review connectivity, power states,\nreset behavior, loads and fault paths]
+    Review --> Discover{Issue found?}
+    Discover -->|Yes| Explain[Explain the assumption\nand revise the design]
+    Explain --> Read
+    Discover -->|No, ready for next evidence| Prototype[Layout, prototype, measure\nand test in vehicle conditions]
+    Prototype --> Observe

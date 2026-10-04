@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TDA7850
+D TDA7850, Audio Amplifier Class-AB stereo 25-Pin FLEXIWATT
+K
+F https://www.st.com/resource/en/datasheet/tda7850.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,17 @@
+sequenceDiagram
+    participant CM5 as CM5 USB host
+    participant Boot as Q1002 BOOTSEL gate
+    participant Reset as Q1001 RUN gate
+    participant RP as RP2354 Boot ROM
+    participant USB as RP2354 USB device
+
+    CM5->>Boot: RP2354_BOOTSEL_ASSERT = high
+    Note over Boot,RP: QSPI_SS held low
+    CM5->>Reset: RP2354_RESET_ASSERT = high
+    Note over Reset,RP: RUN held low
+    CM5->>Reset: Release reset command
+    RP->>RP: Sample QSPI_SS shortly after reset
+    CM5->>Boot: Release BOOTSEL after configurable hold
+    RP->>USB: Start USB BOOTSEL interface
+    USB-->>CM5: Enumerate
+    CM5->>RP: Transfer firmware image

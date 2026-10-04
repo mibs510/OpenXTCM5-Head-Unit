@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TPS65150PWPR
+D 3-CH LCD Bias w/ GPM, VCOM Buffer & Gate Driver for Isolation Switch
+K
+F http://www.ti.com/lit/gpn/TPS65150
+$ENDCMP
+#
+#End Doc Library

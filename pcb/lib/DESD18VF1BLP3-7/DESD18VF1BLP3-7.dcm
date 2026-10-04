@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DESD18VF1BLP3-7
+D DATALINE PROTECTION PP SLP0603
+K
+F https://www.diodes.com/assets/Datasheets/DESD18VF1BLP3.pdf
+$ENDCMP
+#
+#End Doc Library

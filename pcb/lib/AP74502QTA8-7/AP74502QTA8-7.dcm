@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AP74502QTA8-7
+D Ideal Diode Controller SOT28 T&R 3K
+K
+F https://www.diodes.com/datasheet/download/AP74502Q_AP74502HQ.pdf
+$ENDCMP
+#
+#End Doc Library

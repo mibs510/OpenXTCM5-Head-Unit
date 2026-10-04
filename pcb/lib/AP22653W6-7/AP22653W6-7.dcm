@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AP22653W6-7
+D Power Switch ICs - Power Distribution 1-Ch Precision Curr-Limit Load SW
+K
+F https://www.diodes.com//assets/Datasheets/AP22652_53_52A_53A.pdf
+$ENDCMP
+#
+#End Doc Library

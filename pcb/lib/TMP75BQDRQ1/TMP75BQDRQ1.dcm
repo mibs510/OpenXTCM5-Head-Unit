@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TMP75BQDRQ1
+D Automotive Grade, 1.4V-Capable Temperature Sensor with I2C/SMBus Interface in LM75 Pinout
+K
+F http://www.ti.com/lit/gpn/tmp75b-q1
+$ENDCMP
+#
+#End Doc Library

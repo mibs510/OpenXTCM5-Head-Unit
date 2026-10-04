@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP IHLP2525CZER3R3MA1
+D Power Choke Shielded Wirewound 3.3uH 20% 100KHz Powdered Iron 6A 0.03Ohm DCR 2525 Automotive T/R
+K
+F https://www.vishay.com/docs/34241/ihlp-2525cz-a1.pdf
+$ENDCMP
+#
+#End Doc Library

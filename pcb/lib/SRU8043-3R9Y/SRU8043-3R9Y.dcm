@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SRU8043-3R9Y
+D Fixed Inductors 3.9uH 30% SMD 8043
+K
+F https://www.bourns.com/pdfs/SRU8043.pdf
+$ENDCMP
+#
+#End Doc Library

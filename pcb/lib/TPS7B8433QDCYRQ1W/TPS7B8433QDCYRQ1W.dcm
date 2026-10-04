@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TPS7B8433QDCYRQ1W
+D AEC-Q100 qualified for automotive applications:  Temperature grade 1: 40C to +125C, TA  Junction temperature: 40C to +150C, TJ  Input voltage range: 3 V to 40 V (42 V max)  Output voltage range:  Adjustable output: 1.2 V to 18 V  Fixed output: 3.3 V and 5 V  Output current: up to 150 mA  Output voltage accuracy: +/-0.75% (max)  Low dropout voltage:  225 mV (max) at 150 mA (VOUT  3.3 V)  Low quiescent current:  18 A (typ)  4 A (max) when disabled  Excellent line transient r
+K
+F https://www.ti.com/lit/ds/symlink/tps7b84-q1.pdf?ts=1743742229435&ref_url=https%253A%252F%252Fwww.mouser.in%252F
+$ENDCMP
+#
+#End Doc Library

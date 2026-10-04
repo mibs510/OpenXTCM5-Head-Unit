@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TCAN4550RGYRQ1
+D CAN 8Mbps Failsafe/Normal/Sleep/Standby Automotive 20-Pin VQFN EP T/R
+K
+F http://www.ti.com/lit/gpn/TCAN4550
+$ENDCMP
+#
+#End Doc Library

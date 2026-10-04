@@ -1,0 +1,25 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model TPS7B8433QDCYRQ1W
+#/19267023/1198243/2.50/4/3/Integrated Circuit
+DEF TPS7B8433QDCYRQ1W IC 0 30 Y Y 1 F N
+F0 "IC" 850 300 50 H V L CNN
+F1 "TPS7B8433QDCYRQ1W" 850 200 50 H V L CNN
+F2 "SOT230P700X180-4N" 850 100 50 H I L CNN
+F3 "https://www.ti.com/lit/ds/symlink/tps7b84-q1.pdf?ts=1743742229435&ref_url=https%253A%252F%252Fwww.mouser.in%252F" 850 0 50 H I L CNN
+F4 "AEC-Q100 qualified for automotive applications:  Temperature grade 1: 40C to +125C, TA  Junction temperature: 40C to +150C, TJ  Input voltage range: 3 V to 40 V (42 V max)  Output voltage range:  Adjustable output: 1.2 V to 18 V  Fixed output: 3.3 V and 5 V  Output current: up to 150 mA  Output voltage accuracy: +/-0.75% (max)  Low dropout voltage:  225 mV (max) at 150 mA (VOUT  3.3 V)  Low quiescent current:  18 A (typ)  4 A (max) when disabled  Excellent line transient r" 850 -100 50 H I L CNN "Description"
+F5 "1.8" 850 -200 50 H I L CNN "Height"
+F6 "595-TPS7B8433QDCYQ1W" 850 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS7B8433QDCYRQ1W?qs=dbcCsuKDzFUEGwZgY4NswQ%3D%3D" 850 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Texas Instruments" 850 -500 50 H I L CNN "Manufacturer_Name"
+F9 "TPS7B8433QDCYRQ1W" 850 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X IN 1 0 0 200 R 50 50 0 0 P
+X EN 2 0 -100 200 R 50 50 0 0 P
+X OUT 3 0 -200 200 R 50 50 0 0 P
+X GND 4 1000 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 800 100 800 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

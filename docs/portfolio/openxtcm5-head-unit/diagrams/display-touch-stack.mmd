@@ -1,0 +1,24 @@
+flowchart LR
+    CM5[CM5] -->|MIPI DSI, four lanes| J301[J301 LCD FFC]
+    CM5 -->|GPIO2| Reset[GT911 reset request]
+    CM5 -->|GPIO3| Int[GT911 interrupt / address strap]
+    CM5 -->|GPIO10/11\nI2C1 mux| I2C[Touch I2C bus]
+
+    Logic[1.8 V panel logic switch] --> J301
+    Bias5V[Switched 5 V LCD bias input] --> TPS[TPS65150]
+    TPS --> AVDD[VVS/AVDD positive rail]
+    TPS --> VGH[VGH]
+    TPS --> VGL[VGL]
+    TPS --> VCOM[VCOM]
+    AVDD --> J301
+    VGH --> J301
+    VGL --> J301
+    VCOM --> J301
+
+    TouchRail[TOUCH_3V3_SW] --> J302[J302 GT911 touch FFC]
+    TouchRail --> Pullups[4.7 kOhm I2C pull-ups\nand reset pull-up]
+    Reset --> Series[1 kOhm series resistor]
+    Series --> J302
+    Int --> J302
+    I2C --> J302
+    Pullups --> J302

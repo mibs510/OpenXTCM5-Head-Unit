@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ESD2CAN24DBZRQ1
+D ESD Suppressors / TVS Diodes Automotive, dual, 3-pF, +/-24-V, +/-30-kV ESD protection diode for CAN and in-vehicle networks 3-SOT-23 -55 to 150
+K
+F https://www.ti.com/lit/ds/symlink/esd2can24-q1.pdf?ts=1669637432096&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FESD2CAN24-Q1
+$ENDCMP
+#
+#End Doc Library

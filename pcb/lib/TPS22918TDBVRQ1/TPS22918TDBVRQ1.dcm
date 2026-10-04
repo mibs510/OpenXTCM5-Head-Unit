@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TPS22918TDBVRQ1
+D 5.5V, 2A, 52m Automotive Load Switch with Adjustable Rise Time & Adjustable Quick Output Discharge
+K
+F http://www.ti.com/lit/gpn/tps22918-q1
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 1775862-2
+D Body Features: Primary Product Color Black | Configuration Features: Number of Positions 52 | PCB Mount Orientation Horizontal | Number of Rows 2 | Number of Keys 1 | Contact Features: Contact Mating Area Plating Material Gold Flash | PCB Contact Termination Area Plating Material Finish Matte | PCB Contact Termination Area Plating Material Gold Flash | Contact Base Material Copper Alloy | Contact Underplating Material Nickel | Contact Current Rating (Max) .5 AMP | Dimensions: Profile Height from PCB .205 IN
+K
+F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=8-1773459-7_EXPRESS_MINI_CARD_QRG&DocType=Data%20Sheet&DocLang=English&PartCntxt=1775862-2&DocFormat=pdf
+$ENDCMP
+#
+#End Doc Library

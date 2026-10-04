@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ZXMS6008FFQ-7
+D 60V 500m 1.1A 1 SOT-23F Power Distribution Switches ROHS 
+K
+F https://www.diodes.com/assets/Datasheets/ZXMS6008FFQ.pdf
+$ENDCMP
+#
+#End Doc Library

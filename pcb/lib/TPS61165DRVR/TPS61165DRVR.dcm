@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TPS61165DRVR
+D High Brightness White LED Driver in 2mm x 2mm QFN Package
+K
+F http://www.ti.com/lit/gpn/tps61165
+$ENDCMP
+#
+#End Doc Library

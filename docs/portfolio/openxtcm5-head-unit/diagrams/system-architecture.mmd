@@ -1,0 +1,23 @@
+flowchart LR
+    Vehicle[Vehicle electrical system] --> Protection[Input protection and always-on domain]
+    ACC[ACC / ignition state] --> Protection
+    Protection --> MainPower[TPS552892-Q1 main 5 V system rail]
+    MainPower --> CM5[Raspberry Pi CM5\nAndroid and user experience]
+    MainPower --> RP2354[RP2354\nvehicle I/O and sequencing]
+    MainPower --> Rails[3.3 V and 1.8 V rails]
+
+    RP2354 <--> CAN[CAN controller and vehicle bus]
+    RP2354 <--> Audio[Audio codec, amplifier controls, fan]
+    RP2354 --> Switches[GPIO expander\nbranch enables and fault inputs]
+
+    CM5 --> Display[MIPI DSI display path]
+    CM5 <--> Touch[GT911 touch controller]
+    CM5 <--> USB[USB host, hub, VBUS switch]
+    CM5 <--> Modem[SIM7600 modem over USB]
+    CM5 <--> Camera[First-board USB video capture]
+
+    Switches --> Display
+    Switches --> Touch
+    Switches --> USB
+    Switches --> Camera
+    Switches --> Modem

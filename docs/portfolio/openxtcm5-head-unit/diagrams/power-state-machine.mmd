@@ -1,0 +1,19 @@
+stateDiagram-v2
+    [*] --> VehicleOff
+
+    VehicleOff: BATT+ and 3.3 V AON present<br/>Main system rails off
+    VehicleOff --> Boot: ACC_OK
+
+    Boot: Enable TPS552892-Q1<br/>Wait for 5V_SYS_GOOD
+    Boot --> Sequence: Main 3.3 V and 1.8 V valid
+
+    Sequence: RP2354 starts with<br/>branch enables low
+    Sequence --> Running: Display, touch, USB, camera,<br/>backlight and audio enabled deliberately
+
+    Running --> LoadShed: Low input voltage or crank policy
+    LoadShed: Mute amplifier<br/>Disable backlight, USB VBUS, camera<br/>Preserve CM5 where possible
+    LoadShed --> Running: Rail margin restored
+
+    Running --> Shutdown: ACC removed
+    Shutdown: Request orderly CM5 shutdown<br/>Disable external and high-load branches
+    Shutdown --> VehicleOff: SYS_HOLD released or timeout

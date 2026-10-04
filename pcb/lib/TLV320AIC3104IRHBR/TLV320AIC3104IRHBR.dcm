@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TLV320AIC3104IRHBR
+D Low-Power Stereo CODEC with 6 Inputs, 6 Outputs, HP Amp and Enhanced Digital Effects
+K
+F http://www.ti.com/lit/ds/symlink/tlv320aic3104.pdf
+$ENDCMP
+#
+#End Doc Library

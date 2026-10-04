@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MSIM-10-B
+D SIM Card Connector, 6 Contacts, Connector, Push In, Pull Out, Surface Mount, 1.8 mm Height Above Board, Gold Flash
+K
+F https://www.sameskydevices.com/product/resource/msim-10-b.pdf
+$ENDCMP
+#
+#End Doc Library

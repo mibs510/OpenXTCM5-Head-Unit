@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SPM10065VC-4R7M-D
+D IND,4.7uH,24.9A,8.8m,-55~155
+K
+F https://product.tdk.com/system/files/dam/doc/product/inductor/inductor/smd/catalog/inductor_automotive_power_spm10065vc-d_en.pdf
+$ENDCMP
+#
+#End Doc Library

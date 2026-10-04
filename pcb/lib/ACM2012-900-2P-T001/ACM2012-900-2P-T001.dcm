@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ACM2012-900-2P-T001
+D Common Mode Chokes Dual 90Ohm 100MHz 400mA 190mOhm DCR SMD Automotive T/R
+K
+F https://product.tdk.com/system/files/dam/doc/product/emc/emc/cmf_cmc/catalog/cmf_automotive_signal_acm2012_en.pdf
+$ENDCMP
+#
+#End Doc Library

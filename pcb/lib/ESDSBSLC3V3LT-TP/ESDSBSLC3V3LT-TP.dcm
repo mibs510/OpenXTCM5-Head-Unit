@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ESDSBSLC3V3LT-TP
+D Snap Back ESD Protection Device 65W . -55C to +125C .13A
+K
+F https://www.mccsemi.com/pdf/Products/ESDSBSLC3V3LT(DFN1006-3B).pdf
+$ENDCMP
+#
+#End Doc Library

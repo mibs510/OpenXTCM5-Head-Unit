@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CSD18540Q5B
+D MOSFET 60V, N-channel NexFET Pwr MOSFET
+K
+F https://www.ti.com/lit/ds/symlink/csd18540q5b.pdf?ts=1669951210192&ref_url=https%253A%252F%252Fcomponentsearchengine.com%252F
+$ENDCMP
+#
+#End Doc Library
