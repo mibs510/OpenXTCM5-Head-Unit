@@ -2,6 +2,9 @@
 
 OpenXTCM5 is an in-progress open-hardware project for building a capable, repairable Android automotive head unit around a Raspberry Pi Compute Module 5 (CM5) and an RP2354 real-time controller.
 
+> [!NOTE]
+> This is a personal, evolving engineering project. The schematic and documentation describe current intent, not a production guarantee, until the design has been laid out, built, and validated on hardware.
+
 ## Why This Exists
 
 This began as both a learning project and a response to the inexpensive Android head units that are common in aftermarket vehicle installs. The unit currently in use overheats around its TDA7388 audio amplifier. Once heat builds up, Android becomes severely laggy, reverse-camera use can freeze the system, and audio can repeat the last fragment played until the unit reboots.
@@ -118,7 +121,3 @@ See [docs/README.md](docs/README.md) for the complete documentation index. Key r
 
 * `pcb/` - KiCad project, schematic sheets, footprints, and local library material
 * `docs/` - design rationale, decision records, integration plans, and portfolio material
-
-## Project Status
-
-This is a personal, evolving engineering project. The schematic and documentation describe current intent, not a production guarantee, until the design has been laid out, built, and validated on hardware.
